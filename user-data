@@ -5,7 +5,7 @@ autoinstall:
   early-commands:
     - systemctl stop ssh
   identity:
-    hostname: flinn
+    hostname: ece531
     realname: "GNU Radio (pw is gnuradio)"
     username: gnuradio
     password: "$6$c/SgY6Md1m75S32u$eOW1h3l9lYNTM97o0Usa/C/U2C8I6FpXcCJuZLkKEzjEf4.v9VXFW05A0BLR2eONdJ7lP2BLGdC5g.es8dvW/1"

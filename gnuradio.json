@@ -8,11 +8,11 @@
       "ssh_password": "gnuradio",
       "shutdown_command": "sudo systemctl poweroff",
       "guest_additions_mode": "disable",
-      "vm_name": "instant-gnuradio",
+      "vm_name": "instant-gnuradio-2021",
       "export_opts": [
         "--manifest",
         "--vsys", "0",
-        "--description", "Instant GNU Radio",
+        "--description", "ECE531 Sp2021 Instant GNU Radio",
         "--version", "instant-1"
       ],
       "format": "ova",
@@ -68,6 +68,11 @@
       "type": "file",
       "source": "assets/urh.desktop",
       "destination": ".local/share/applications/urh.desktop"
+    },
+    {
+      "type": "file",
+      "source": "assets/53-adi-plutosdr-usb.rules",
+      "destination": "53-adi-plutosdr-usb.rules"
     },
     {
       "type": "file",
