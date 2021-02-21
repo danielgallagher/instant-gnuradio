@@ -13,7 +13,7 @@
         "--manifest",
         "--vsys", "0",
         "--description", "ECE531 Sp2021 Instant GNU Radio",
-        "--version", "instant-1"
+        "--version", "ece531-sp21-022120"
       ],
       "format": "ova",
       "output_directory": "vms/gnuradio"
